@@ -8,6 +8,9 @@
             data-bs-toggle="collapse" data-bs-target="#navbarItems" 
             aria-controls="navbarSupportedContent" aria-expanded="false" 
             aria-label="Toggle navigation">
+                <span class =navbar-toggler-icon>
+                </span>
+            </button>
             <!-- End of Burger Button -->
             <div class = "" id = "navbarItems">
                 <ul class=""> <!-- Navbar Item List Start -->
@@ -20,6 +23,9 @@
                         <!-- Button for Format/ Format ID = FormatListItems -->
                         <button class ="" type="button" data-bs-toggle="collapse" data-bs-target="#FormatListItems" 
                         aria-controls ="" aria-expanded="false" aria-label="toggle navigation">
+                            <!-- Insert Dropdown Graphics here -->
+                            <span class = ""></span>
+                        </button>
                         <!-- Nested List for Format -->
                         <ul class= "collapse" id ="FormatListItems">
                             <li class = "">C++</li>
