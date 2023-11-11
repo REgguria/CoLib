@@ -17,7 +17,7 @@
                     <li class ="nav-link">
                         <a href="Index.php">Home<a>
                     </li>
-                    <li class="nav-link">
+                    <li class="nav-item dropdown">
                         <a href="">Format</a>
                         <!-- Navbar Item Name ^^^ -->
                         <!-- Button for Format/ Format ID = FormatListItems -->
@@ -28,13 +28,40 @@
                         </button>
                         <!-- Nested List for Format -->
                         <ul class= "collapse" id ="FormatListItems">
-                            <li class = "">C++</li>
-                            <li class = "">Java</li>
-                            <li class = "">Phyton</li>
-                            <li class = "">CSS</li>
-                            <li class = "">PHP</li>
-                            <li class = "">JavaScript</li>
-                            <li class = "">More</li>
+                            <li>
+                                <a class ="dropdown-item" href="">
+                                    C++ 
+                                </a>
+                            </li>
+                            <li><a class ="dropdown-item">
+                                    Java
+                                </a>
+                            </li>
+                            <li>
+                                <a class ="dropdown-item">
+                                    Phyton
+                                </a>
+                            </li>
+                            <li>
+                                <a class ="dropdown-item">
+                                    CSS 
+                                </a>
+                            </li>
+                            <li>
+                                <a class ="dropdown-item">
+                                    PHP
+                                </a>
+                            </li>
+                            <li>
+                                <a class ="dropdown-item">
+                                    JavaScript
+                                </a>
+                            </li>
+                            <li>
+                                <a class ="dropdown-item">
+                                    More 
+                                </a>  
+                            </li>
                         </ul> <!-- End of Nested List -->
                     </li>
                     <li class = "nav-link">
