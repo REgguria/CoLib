@@ -8,8 +8,11 @@
     <?php
         require_once('../include/header.user.php');
     ?>
-    <h1>Test</h1>
+    <main>
+        <div class="container container-fluid p-3">
 
+        </div>
+    </main>
     <?php 
         require_once('../include/js.php');
     ?>
