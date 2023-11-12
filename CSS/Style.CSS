@@ -1,0 +1,17 @@
+@font-face{
+    font-family: 'Source Code Pro';
+    src: url(../Font/Source\ Code\ Pro/SourceCodePro-VariableFont_wght.ttf)
+}
+*{
+    font-family: 'Source Code Pro';
+}
+.navbar{
+    background-color: black !important;
+}
+.navbar-nav .nav-link{
+    color: #ffffff;
+}
+.navbar-brand img{
+    height: 51px;
+    width: 73px;
+}

@@ -1,8 +1,8 @@
 <!-- Please place all proper classes THX -->
-<header class = "sticky-top">
-    <nav class = "navbar">
+<header class = "sticky-top Landing-Page">
+    <nav class = "navbar navbar-expand-lg navbar-light bg-dark">
         <div class= "container-fluid">
-            <a class="navbar-brand"href = "Index.php"><img src = "#" alt = ""></a>
+            <a class="navbar-brand" href = "Index.php"><img src = "../Images/Header/logo.png" alt = ""></a>
             <!-- Burger Button ID = navbarItems -->
             <button class ="navbar-toggler" type="button"
             data-bs-toggle="collapse" data-bs-target="#navbarItems" 
@@ -12,13 +12,13 @@
                 </span>
             </button>
             <!-- End of Burger Button -->
-            <div class = "" id = "navbarItems">
-                <ul class=""> <!-- Navbar Item List Start -->
-                    <li class ="nav-link">
-                        <a href="Index.php">Home<a>
+            <div class = "collapse navbar-collapse" id = "navbarItems">
+                <ul class="navbar-nav mb-2 mb-lg-o ms-auto me-0"> <!-- Navbar Item List Start -->
+                    <li class ="nav-item">
+                        <a class="nav-link" href="Index.php">Home<a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="">Format</a>
+                        <a class="nav-link" href="">Format</a>
                         <!-- Navbar Item Name ^^^ -->
                         <!-- Button for Format/ Format ID = FormatListItems -->
                         <button class ="" type="button" data-bs-toggle="collapse" data-bs-target="#FormatListItems" 
@@ -27,7 +27,7 @@
                             <span class = ""></span>
                         </button>
                         <!-- Nested List for Format -->
-                        <ul class= "collapse" id ="FormatListItems">
+                        <ul class= "collapse dropdown-menu" id ="FormatListItems">
                             <li>
                                 <a class ="dropdown-item" href="">
                                     C++ 
@@ -64,17 +64,17 @@
                             </li>
                         </ul> <!-- End of Nested List -->
                     </li>
-                    <li class = "nav-link">
-                        <a href="Index.php">News<a>
+                    <li class = "nav-item">
+                        <a class="nav-link" href="Index.php">News<a>
                     </li>
-                    <li class = "nav-link">
-                        <a href="Index.php">Programmers<a>
+                    <li class = "nav-item">
+                        <a class="nav-link" href="Index.php">Programmers<a>
                     </li>
-                    <li class = "nav-link">
-                        <a href="Index.php">Sign Up<a>
+                    <li class = "nav-item">
+                        <a class="nav-link" href="Index.php">Sign Up<a>
                     </li>
-                    <li class = "nav-link">
-                        <a href="Index.php">Log In<a>
+                    <li class = "nav-item">
+                        <a class="nav-link" href="Index.php">Log In<a>
                     </li>
                 </ul> <!-- End of Navbar Item List -->
             </div>
