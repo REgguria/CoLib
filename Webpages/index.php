@@ -18,11 +18,11 @@
 
         <div class="container">
             <div class="row">
-
+                <!-- Navigation Bar ontop of the Container -->
             </div>
 
             <div class="row">
-                
+                <!-- Card Placeholders -->
             </div>
         </div>
     </main>
