@@ -17,14 +17,14 @@
         </div>
 
 
-        <div class="container">
+        <div class="container-lg d-flex">
             <div class="row">
                 <!-- Navigation Bar ontop of the Container -->
             </div>
 
             <div class="row">
                 <!-- Card Placeholders -->
-                <div class="col">
+                <div class="col-3">
                     <div class="card" style="width: 18rem;">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
@@ -34,7 +34,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-3">
                     <div class="card" style="width: 18rem;">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
@@ -44,7 +44,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-3">
                     <div class="card" style="width: 18rem;">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
