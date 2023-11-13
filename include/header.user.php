@@ -17,15 +17,11 @@
                     <li class ="nav-item">
                         <a class="nav-link" href="Index.php">Home<a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown" type="button" data-bs-toggle="collapse" data-bs-target="#FormatListItems" 
+                        aria-controls ="" aria-expanded="false" aria-label="toggle navigation">
                         <a class="nav-link" href="">Format</a>
                         <!-- Navbar Item Name ^^^ -->
                         <!-- Button for Format/ Format ID = FormatListItems -->
-                        <button class ="" type="button" data-bs-toggle="collapse" data-bs-target="#FormatListItems" 
-                        aria-controls ="" aria-expanded="false" aria-label="toggle navigation">
-                            <!-- Insert Dropdown Graphics here -->
-                            <span class = ""></span>
-                        </button>
                         <!-- Nested List for Format -->
                         <ul class= "collapse dropdown-menu" id ="FormatListItems">
                             <li>

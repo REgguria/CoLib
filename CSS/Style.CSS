@@ -7,11 +7,33 @@
     margin: 0;
     padding: 0;
 }
+.primary {
+    background-color: #ffffff;
+    color: #000000;
+}
+.primary p{
+  color: #000000;
+}
+.primary h1{
+    color: #3D5A80;
+}
+.secondary {
+    background-color: #000000;
+    color: #ffffff;
+}
+.secondary p{
+    color: #ffffff;
+  }
+  .secondary h1{
+      color: #00f0ff;
+  }
 .navbar{
     background-color: black !important;
+    height: 64px;
 }
 .navbar-nav .nav-link{
     color: #ffffff;
+    padding:0;
 }
 .navbar-brand img{
     height: 51px;
