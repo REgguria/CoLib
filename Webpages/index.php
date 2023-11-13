@@ -9,8 +9,10 @@
         require_once('../include/header.user.php');
     ?>
     <main>
-        <div class="container container-fluid p-3">
-
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+            <div class="container-fluid py-5">
+                
+            </div>
         </div>
     </main>
     <?php 
