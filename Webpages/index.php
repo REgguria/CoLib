@@ -9,6 +9,7 @@
         require_once('../include/header.user.php');
     ?>
     <main>
+        <!-- Jumbotron which showcases the website -->
         <div class="p-5 mb-4 bg-body-tertiary rounded-3">
             <div class="container-fluid py-5">
 
