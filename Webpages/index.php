@@ -23,7 +23,7 @@
             </div>
 
             <div class="row">
-                <div class="col-3">
+                <div class="col-md">
                     <div class="card" style="width: 18rem;">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
@@ -33,7 +33,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-md">
                     <div class="card" style="width: 18rem;">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
@@ -45,7 +45,7 @@
             </div>
 
             <div class="row">
-                <div class="col-3">
+                <div class="col-md">
                     <div class="card" style="width: 18rem;">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
