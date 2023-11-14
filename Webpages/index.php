@@ -23,8 +23,6 @@
             </div>
 
             <div class="row">
-                <!-- Card Placeholders -->
-                <!-- Currently not working as intended -->
                 <div class="col">
                     <div class="card" style="width: 18rem;">
                         <img src="..." class="card-img-top" alt="...">
