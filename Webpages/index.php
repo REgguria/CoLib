@@ -25,7 +25,7 @@
             </div>
 
             <div class="row">
-                <div class="container-fluid d-flex justify-content-center">
+                <div class="card-fluid mx-5 d-flex justify-content-center">
                     <div class="col-md d-flex mx-3">
                         <div class="card" style="width: 18rem;">
                             <img src="..." class="card-img-top" alt="...">
