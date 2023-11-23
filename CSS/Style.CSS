@@ -48,6 +48,21 @@
     width: 73px;
 }
 
-.Login-Card {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+#login-background {
+    background-color: darkslategrey;
 }
+
+#login-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.Login-Card {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    background-color: lightgrey;
+}
+
+#login-btn {
+    background-color: black;
+}
+
