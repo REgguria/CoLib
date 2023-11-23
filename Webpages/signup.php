@@ -11,7 +11,7 @@
                 <p class="text-center">
                     <img src="../Images/Header/logo.png" class="img-fluid" alt="" id="login-logo">
                 </p>
-                <h1 class="h2 my-3 mb-4 text-center brand-color">Sign Up</h1>
+                <h1 class="h2 my-3 mb-4 text-center brand-color"><b>Sign Up</b></h1>
                 <form method="post" action="">
                     <div class="mb-2">
                         <label for="username" class="form-label">Username</label>
