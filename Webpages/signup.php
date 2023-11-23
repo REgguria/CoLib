@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-        $title = "Home Page";
+        $title = "Sign Up";
         require_once('../include/head.php');
 ?>
 <body>
@@ -21,11 +21,16 @@
                         <label for="email" class="form-label">Email</label>
                         <input type="text" class="form-control" id="email" name="email" required value="<?php if(isset($_POST['email'])) { echo $_POST['email']; } ?>">
                     </div>
-                    <div class="mb-2">
-                        <input class="form-check-input" type="checkbox" id="checkboxmale" value="Male" aria-label="...">
-                        <label class="form-check-label" for="checkboxmale">Male</label>
-                        <input class="form-check-input" type="checkbox" id="checkboxfemale" value="Female" aria-label="...">
-                        <label class="form-check-label" for="checkboxfemale">Female</label>
+                    <label for="gender" class="form-label">Gender</label>
+                    <div class="d-flex mb-2">
+                        <div class="form-check mx-2">
+                            <input class="form-check-input" type="radio" name="maleradio" id="maleradio" value="Male" checked>
+                            <label class="form-check-label" for="maleradio">Male</label>
+                        </div>
+                        <div class="form-check mx-2">
+                            <input class="form-check-input" type="radio" name="femaleradio" id="femaleradio" value="Female">
+                            <label class="form-check-label" for="femaleradio">Female</label>
+                        </div>
                     </div>
                     <div class="mb-2">
                         <label for="password" class="form-label">Password</label>
