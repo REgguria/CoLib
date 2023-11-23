@@ -47,3 +47,7 @@
     height: 51px;
     width: 73px;
 }
+
+.Login-Card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
