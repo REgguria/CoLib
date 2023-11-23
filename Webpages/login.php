@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-        $title = "Home Page";
+        $title = "Login";
         require_once('../include/head.php');
 ?>
 <body>
