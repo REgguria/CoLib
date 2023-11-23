@@ -7,7 +7,7 @@
 <body>
     <main>
         <div class="container-fluid vh-100 d-flex justify-content-center align-items-center" id="login-background">
-            <div class="Login-Card rounded-3 border-1 border-primary p-4 m-5" style="width: 24rem;" id="Login-Card">
+            <div class="Login-Card rounded-3 border-1 border-primary p-4" style="width: 30rem;" id="Login-Card">
                 <p class="text-center">
                     <img src="../Images/Header/logo.png" class="img-fluid" alt="" id="login-logo">
                 </p>
@@ -21,7 +21,13 @@
                         <label for="password" class="form-label">Password</label>
                         <input type="password" class="form-control" id="password" name="password" required value="<?php if(isset($_POST['password'])) { echo $_POST['password']; } ?>">
                     </div>
+                    <div class="mb-2">
+                            <p class="text-end"><a href="">Forgot Password?</a></p>
+                    </div>
                     <button type="submit" class="btn btn-primary mt-2 brand-bg-color w-100" name="login" id="login-btn">Login</button>
+                    <div class="text-center mt-3">
+                        <p>Don’t have account yet? Sign up here <a href="signup.php" class="brand-color text-decoration-none">Sign up</a></p>
+                    </div>
                 </form>
             </div> 
         </div>
