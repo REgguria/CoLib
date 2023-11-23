@@ -2,7 +2,7 @@
 <html lang="en">
     <?php
         $title = "Home Page";
-        require_once('../include/head.php')
+        require_once('../include/head.php');
     ?>
 <body>
     <?php
