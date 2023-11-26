@@ -21,17 +21,6 @@
                         <label for="email" class="form-label">Email</label>
                         <input type="text" class="form-control" id="email" name="email" required value="<?php if(isset($_POST['email'])) { echo $_POST['email']; } ?>">
                     </div>
-                    <label for="gender" class="form-label">Gender</label>
-                    <div class="d-flex mb-2">
-                        <div class="form-check mx-2">
-                            <input class="form-check-input" type="radio" name="maleradio" id="maleradio" value="Male" checked>
-                            <label class="form-check-label" for="maleradio">Male</label>
-                        </div>
-                        <div class="form-check mx-2">
-                            <input class="form-check-input" type="radio" name="femaleradio" id="femaleradio" value="Female">
-                            <label class="form-check-label" for="femaleradio">Female</label>
-                        </div>
-                    </div>
                     <div class="mb-2">
                         <label for="password" class="form-label">Password</label>
                         <input type="password" class="form-control" id="password" name="password" required value="<?php if(isset($_POST['password'])) { echo $_POST['password']; } ?>">
