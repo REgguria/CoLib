@@ -9,7 +9,7 @@
         <div class="container-fluid vh-100 d-flex justify-content-center align-items-center" id="login-background">
             <div class="Login-Card rounded-3 border-1 border-primary p-4" style="width: 30rem;" id="Login-Card">
                 <p class="text-center">
-                    <img src="../Images/Header/logo.png" class="img-fluid" alt="" id="login-logo">
+                    <img src="../Images/Header/logo2.png" class="img-fluid" alt="" id="login-logo">
                 </p>
                 <h1 class="h2 my-3 mb-4 text-center brand-color"><b>Sign Up</b></h1>
                 <form method="post" action="">
