@@ -67,10 +67,10 @@
                         <a class="nav-link" href="Index.php">Programmers<a>
                     </li>
                     <li class = "nav-item">
-                        <a class="nav-link" href="Index.php">Sign Up<a>
+                        <a class="nav-link" href="../Webpages/signup.php">Sign Up<a>
                     </li>
                     <li class = "nav-item">
-                        <a class="nav-link" href="Index.php">Log In<a>
+                        <a class="nav-link" href="../Webpages/login.php">Log In<a>
                     </li>
                 </ul> <!-- End of Navbar Item List -->
             </div>
