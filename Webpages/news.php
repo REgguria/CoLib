@@ -21,7 +21,7 @@
 
         <div class="container-fluid">
             <div class="row d-flex justify-content-center">
-                <div class="col-3 border-5 rounded-3 bg-secondary m-2">
+                <div class="col-3 border-5 rounded-3 vh-25 bg-secondary m-2">
                     <form method="post" action="" class="d-flex m-2">
                         <div class="input-group">
                         <input type="search" class="form-control rounded " placeholder="Search" name="search"/>
@@ -29,7 +29,7 @@
                         </div>
                     </form>
 
-                    <div class="container-75 border-2 rounded-3 bg-light p-2 mb-2">
+                    <div class="container border-2 rounded-3 bg-light p-2 mb-2">
                         <form method="post" action="">
                             <div class="mb-2">
                                 <label for="email" class="form-label">Email</label>
