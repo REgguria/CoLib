@@ -17,54 +17,11 @@
                     <li class ="nav-item">
                         <a class="nav-link" href="Index.php">Home<a>
                     </li>
-                    <li class="nav-item dropdown" type="button" data-bs-toggle="collapse" data-bs-target="#FormatListItems" 
-                        aria-controls ="" aria-expanded="false" aria-label="toggle navigation">
-                        <a class="nav-link" href="">Format</a>
-                        <!-- Navbar Item Name ^^^ -->
-                        <!-- Button for Format/ Format ID = FormatListItems -->
-                        <!-- Nested List for Format -->
-                        <ul class= "collapse dropdown-menu" id ="FormatListItems">
-                            <li>
-                                <a class ="dropdown-item" href="">
-                                    C++ 
-                                </a>
-                            </li>
-                            <li><a class ="dropdown-item">
-                                    Java
-                                </a>
-                            </li>
-                            <li>
-                                <a class ="dropdown-item">
-                                    Phyton
-                                </a>
-                            </li>
-                            <li>
-                                <a class ="dropdown-item">
-                                    CSS 
-                                </a>
-                            </li>
-                            <li>
-                                <a class ="dropdown-item">
-                                    PHP
-                                </a>
-                            </li>
-                            <li>
-                                <a class ="dropdown-item">
-                                    JavaScript
-                                </a>
-                            </li>
-                            <li>
-                                <a class ="dropdown-item">
-                                    More 
-                                </a>  
-                            </li>
-                        </ul> <!-- End of Nested List -->
-                    </li>
                     <li class = "nav-item">
                         <a class="nav-link" href="Index.php">News<a>
                     </li>
                     <li class = "nav-item">
-                        <a class="nav-link" href="Index.php">Programmers<a>
+                        <a class="nav-link" href="aboutus.php">Our Story<a>
                     </li>
                     <li class = "nav-item">
                         <a class="nav-link" href="../Webpages/signup.php">Sign Up<a>
