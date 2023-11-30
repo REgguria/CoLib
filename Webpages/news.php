@@ -21,11 +21,11 @@
 
         <div class="container-fluid">
             <div class="row d-flex justify-content-center">
-                <div class="col-3 border-3 rounded-3 bg-secondary m-2">
+                <div class="col-3 border-5 rounded-3 bg-secondary m-2">
                     <form method="post" action="" class="d-flex m-2">
                         <div class="input-group">
-                        <input type="search" class="form-control rounded w-25" placeholder="Search" name="search"/>
-                        <button type="button" class="btn btn-outline-dark" data-mdb-ripple-init>Search</button>
+                        <input type="search" class="form-control rounded " placeholder="Search" name="search"/>
+                        <button type="button" class="btn btn-outline-dark" data-mdb-ripple-init><i class="fa fa-search" aria-hidden="true"></i></button>
                         </div>
                     </form>
 
@@ -50,9 +50,32 @@
                     </div>
                 </div> 
 
-                <div class="col-8 bg-light m-2 d-flex justify-content-center rounded-3">
+                <div class="col-8 bg-light m-2 d-flex flex-column justify-content-start rounded-3">
                     <div class="container-fluid d-flex justify-content-center bg-secondary m-2">
-                        <h2 class="text-light m-2">NEWS HEADLINE</h2>
+                        <h2 class="text-light m-2"><strong>NEWS HEADLINE</strong></h2>
+                    </div>
+
+                    <div class="container-fluid">
+                        <a href="" class="m-2" style="text-decoration: none">
+                            <div class="container-fluid m-2 border-top border-bottom border-primary">
+                                <h2 class="m-2">Headline Topic</h2>
+                                <p>Velit ut ad laboris esse aliquip est ipsum qui adipisicing ad est adipisicing enim. Et velit voluptate sit cillum aliquip eiusmod excepteur duis culpa eu eu qui officia ad. Do ullamco enim do sunt est veniam veniam aliquip commodo ea quis proident. Sit aliqua cillum veniam velit nostrud enim ad.</p>
+                            </div>
+                        </a>
+
+                        <a href="" class="m-2" style="text-decoration: none">
+                            <div class="container-fluid m-2 border-top border-bottom border-primary">
+                                <h2 class="m-2">Headline Topic</h2>
+                                <p>Velit ut ad laboris esse aliquip est ipsum qui adipisicing ad est adipisicing enim. Et velit voluptate sit cillum aliquip eiusmod excepteur duis culpa eu eu qui officia ad. Do ullamco enim do sunt est veniam veniam aliquip commodo ea quis proident. Sit aliqua cillum veniam velit nostrud enim ad.</p>
+                            </div>
+                        </a>
+
+                        <a href="" class="m-2" style="text-decoration: none">
+                            <div class="container-fluid m-2 border-top border-bottom border-primary">
+                                <h2 class="m-2">Headline Topic</h2>
+                                <p>Velit ut ad laboris esse aliquip est ipsum qui adipisicing ad est adipisicing enim. Et velit voluptate sit cillum aliquip eiusmod excepteur duis culpa eu eu qui officia ad. Do ullamco enim do sunt est veniam veniam aliquip commodo ea quis proident. Sit aliqua cillum veniam velit nostrud enim ad.</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
