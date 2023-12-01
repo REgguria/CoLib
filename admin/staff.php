@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <?php
-        $title = "For Approval";
+        $title = "Staff";
         require_once('../include/head.admin.php');
         ?>
     </head>

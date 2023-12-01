@@ -139,28 +139,28 @@
 
 .btn-add{
     border-radius: 50%;
-    border-color: #D80032;
+    border-color: #3D5A80;
     background-color: white;
     margin-left: 10px;
-    color: #D80032;
+    color: #3D5A80;
 }
 
 .btn-add:hover{
-    background-color: #F78CA2;
-    border-color: #D80032;
+    background-color: #6883a5;
+    border-color: #3D5A80;
 }
 
 .page-item.active .page-link {
-    background-color: #D80032;
-    border-color: #D80032;
+    background-color: #3D5A80;
+    border-color: #3D5A80;
 }
 
 .page-link{
-    color: #D80032;
+    color: #3D5A80;
 }
 
 .page-link:hover{
-    color: #F78CA2;
+    color: #6883a5;
 }
 
 .signup-banner{

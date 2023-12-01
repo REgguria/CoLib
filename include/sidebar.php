@@ -20,7 +20,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?= $customer_page ?>" href="#">
+                <a class="nav-link <?= $customer_page ?>" href="users.php">
                     <i class="fa fa-users" aria-hidden="true"></i>
                     Users
                 </a>
@@ -32,15 +32,9 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?= $customer_page ?>" href="#">
+                <a class="nav-link <?= $customer_page ?>" href="report.php">
                     <i class="fa fa-triangle-exclamation" aria-hidden="true"></i>
                     Reports
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link <?= $settings_page ?>" href="#">
-                    <i class="fa fa-cog" aria-hidden="true"></i>
-                    Settings
                 </a>
             </li>
             <hr class="d-lg-none">

@@ -1,11 +1,11 @@
-<header class="navbar navbar-dark sticky-top brand-bg-color flex-md-nowrap p-0 admin">
+<header class="navbar navbar-dark bg-dark sticky-top brand-bg-color flex-md-nowrap p-0 admin">
     <button class="navbar-toggler d-md-none collapsed me-2 mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
     <div class="col-md-3 col-lg-2 admin-header">
-        <a class="navbar-brand mx-md-0 mx-lg-2" href = "Index.php"><img src = "../Images/Header/logo.png" alt = ""></a>
+        <a class="navbar-brand mx-md-0 mx-lg-2" href = "../Webpages/Index.php"><img src = "../Images/Header/logo.png" alt = ""></a>
     </div>
-    <nav class="navbar navbar-expand-md navbar-dark d-none d-md-block">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark d-none d-md-block mb-2 mb-lg-o ms-auto me-0">
         <div class="container-fluid">
             <div class="navbar-collapse offcanvas-collapse">
                 <ul class="navbar-nav me-auto">
