@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="card m-5" style="max-width: 24em">
-                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top" alt="Palm Springs Road"/>
+                    <img src="../Images/AAAAAAAA.png" class="card-img-top img-fluid" alt="Palm Springs Road"/>
                     <div class="card-body">
                         <h5 class="card-title">Ralph Waldo B. Lahaman</h5>
                         <p class="card-text">Co-Founder of Colib</p>
