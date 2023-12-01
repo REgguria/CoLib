@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-        $title = "Login";
+        $title = "Admin Login";
         require_once('../include/head.php');
 ?>
 <body>
@@ -14,12 +14,20 @@
                 <h1 class="h2 my-3 mb-4 text-center brand-color"><b>Colib Admin Login</b></h1>
                 <form method="post" action="">
                     <div class="mb-2">
-                        <label for="adminemail" class="form-label">Email</label>
-                        <input type="text" class="form-control" id="adminemail" name="adminemail" required value="<?php if(isset($_POST['adminemail'])) { echo $_POST['adminemail']; } ?>">
+                        <label for="admin_email" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="admin_email" name="admin_email" required value="
+                            <?php if(isset($_POST['admin_email'])) { 
+                                echo $_POST['admin_email']; } 
+                            ?>"
+                        >
                     </div>
                     <div class="mb-2">
                         <label for="adminpassword" class="form-label">Password</label>
-                        <input type="adminpassword" class="form-control" id="adminpassword" name="adminpassword" required value="<?php if(isset($_POST['adminpassword'])) { echo $_POST['adminpassword']; } ?>">
+                        <input type="adminpassword" class="form-control" id="adminpassword" name="adminpassword" required value="
+                            <?php if(isset ($_POST['adminpassword'])) { 
+                                echo $_POST['adminpassword']; 
+                            } ?>"
+                        >
                     </div>
                     <button type="submit" class="btn btn-primary mt-2 brand-bg-color w-100" name="login" id="login-btn">Login</button>
                 </form>

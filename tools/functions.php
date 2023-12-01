@@ -1,5 +1,4 @@
 <?php
-    
     function validate_field($Field){
         $Field = htmlentities($Field);
         if(strlen(trim($Field))<1){

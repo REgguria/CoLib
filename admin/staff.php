@@ -16,7 +16,7 @@
                 <?php
                 require_once('../include/sidebar.php');
             ?>
-             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
                     <h2 class="h3 brand-color pt-3 pb-2">Staff</h2>
                     <a href="addstaff.php" class="btn btn-primary brand-bg-color mb-3">Add Staff</a>
                     <div id="table-container">
@@ -54,7 +54,13 @@
                                         <td><?= $item['Role'] ?></td>
                                         <td><?= $item['Email'] ?></td>
                                         <td><?= $item['Status'] ?></td>
-                                        <td class="text-center"><a href="editstaff.php?id=<?php echo $item['StaffID']; ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+                                        <td class="text-center">
+                                            <a href="editstaff.php?id=<?php echo $item['StaffID']; ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                            </a>
+                                            <button type="button-fluid" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#DeleteButton">
+                                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                            </button>
+                                        </td>
                                     </tr>
                                     <?php
                                         $Counter++;
@@ -63,6 +69,25 @@
                                     ?>
                             </tbody>
                         </table>
+                        <div class="modal fade" id="DeleteButton" tabindex="-1" aria-labelledby="DeleteButton" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="DeleteButton">Delete Staff</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                <div class="modal-body">
+                                    <p><strong>Are you sure about this?</strong></p>
+                                </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">NO</button>
+                                <form action="../classes/staff.class.php" method="post">
+                                    <button type="button" class="btn btn-dark" name="DeleteStaff">YES</button>
+                                </form>
+                            </div>
+                        </div>
+
+
                     </div>
                 </main> 
             </div>

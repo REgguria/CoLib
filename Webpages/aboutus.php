@@ -10,15 +10,7 @@
     <?php 
         require_once("../include/header.user.php")
     ?>
-    <main class="container-fluid bg-secondary">
-        <div class="p-5 mb-2 bg-body-tertiary" >
-            <div class="container-fluid p-5 vh-50">
-                <h1 class="display-5 fw-bold">CoLib</h1>
-                    <p class="col-md-8 fs-4">Bringing you the simple, best, and yet open-source codes throughout the web!</p>
-                <button class="btn btn-primary btn-dark btn-lg" type="button">Start Browsing</button>
-            </div>
-        </div>
-
+    <main class="container-fluid bg-secondary vh-100">
         <div class="container-fluid">
             <div class="container-fluid d-flex justify-content-center align-items-center">
                 <div class="card m-5" style="max-width: 24em">

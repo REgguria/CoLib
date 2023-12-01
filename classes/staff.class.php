@@ -27,7 +27,7 @@
          // Hash the password securely using password_hash
          $HashedPassword = password_hash($this->Password, PASSWORD_DEFAULT);
          $query->bindParam(':Password', $hashedPassword);
-         $query->bindParam(':Status', $this->status);
+         $query->bindParam(':Status', $this->Status);
         
          if($query->execute()){
             return true;
@@ -45,7 +45,7 @@
         $query->bindParam(':LastName', $this->LastName);
         $query->bindParam(':Role', $this->Role);
         $query->bindParam(':Email', $this->Email);
-        $query->bindParam(':Status', $this->status);
+        $query->bindParam(':Status', $this->Status);
         $query->bindParam(':StaffID', $this->StaffID);
         
         if($query->execute()){

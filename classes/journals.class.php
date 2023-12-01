@@ -2,7 +2,6 @@
     require_once 'database.php';
     class journal{
     //CapitalFirstLettersDon'tForget
-
             public $JournalID;
             public $Title;
             public $Description;
@@ -10,7 +9,6 @@
             public $Text;
             public $DataUploaded;
             public $DateUpdated;
-
             protected $Database;
             function __construct(){
             $this->Database = new Database();
@@ -18,7 +16,7 @@
         function add(){
             $sql ="INSERT INTO journal (Title, Description, Author, Text) VALUES
             (:Title, :Title, :Description, :Author, :Text);";
-            $query=$this->Database->connect->prepare($sql);
+            $query=$this->Database->connect()->prepare($sql);
             $query->bindparam(':Title', $this->Title);
             $query->bindparam(':Description', $this->Description);
             $query->bindparam(':Author', $this->Author);
