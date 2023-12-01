@@ -8,27 +8,33 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?= $order_page ?>" href="#">
+                <a class="nav-link <?= $order_page ?>" href="forapproval.php">
                     <i class="fa fa-file-text" aria-hidden="true"></i>
                     For approval
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?= $product_page ?>" href="products.php">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <a class="nav-link <?= $product_page ?>" href="Journals.php">
+                    <i class="fa fa-book" aria-hidden="true"></i>
                     Journals
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link <?= $customer_page ?>" href="#">
                     <i class="fa fa-users" aria-hidden="true"></i>
-                    Reports
+                    Users
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link <?= $staff_page ?>" href="staff.php">
                     <i class="fa fa-user" aria-hidden="true"></i>
                     Staff
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link <?= $customer_page ?>" href="#">
+                    <i class="fa fa-triangle-exclamation" aria-hidden="true"></i>
+                    Reports
                 </a>
             </li>
             <li class="nav-item">
