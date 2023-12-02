@@ -15,7 +15,7 @@
             // Check if the email is not empty
             if (empty($Email)) {
                 return 'Email is required';
-            } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            } else if (!filter_var($Email, FILTER_VALIDATE_EMAIL)) {
                 // Check if the email has a valid format
                 return 'Email is invalid format';
             } else {

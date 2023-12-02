@@ -1,5 +1,6 @@
 <?php
     require_once 'database.php';
+
     class staff{
         //CapitalFirstLettersDon'tForget
 
@@ -56,7 +57,7 @@
         }	
     }
 
-    function fetch($record_id){
+    function fetch($RecordID){
         $sql = "SELECT * FROM staff WHERE StaffID = :StaffID;";
         $query=$this->Database->connect()->prepare($sql);
         $query->bindParam(':StaffID', $RecordID);
@@ -86,5 +87,25 @@
             }
         }
         return false;
+    }
+    function delete($DeleteID){
+        $StaffID = $DeleteID;
+        $sql = "DELETE FROM staff WHERE StaffID = :StaffID;";
+        $query=$this->Database->connect()->prepare($sql);
+        $query->bindParam(':StaffID', $StaffID, PDO::PARAM_INT);
+        try {
+            // Execute the query
+            $query->execute();
+            
+            // Check if any rows were affected
+            if ($query->rowCount() > 0) {
+                return true; // Deletion successful
+            } else {
+                return false; // No rows affected, possibly StaffID doesn't exist
+            }
+        } catch (PDOException $e) {
+            // Handle exceptions, log or display an error message
+            return false;
+        }
     }
 }

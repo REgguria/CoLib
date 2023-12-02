@@ -55,7 +55,7 @@
                                         <td><?= $item['Email'] ?></td>
                                         <td><?= $item['Status'] ?></td>
                                         <td class="text-center">
-                                            <a href="editstaff.php?id=<?php echo $item['StaffID']; ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                            <a href="edit_staff.php?StaffID=<?php echo $item['StaffID']; ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                                             </a>
                                             <button type="button-fluid" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#DeleteButton">
                                                 <i class="fa fa-trash" aria-hidden="true"></i>
@@ -81,13 +81,12 @@
                                 </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">NO</button>
-                                <form action="../classes/staff.class.php" method="post">
-                                    <button type="button" class="btn btn-dark" name="DeleteStaff">YES</button>
+                                <form action="deletestaff.php" method="post">
+                                    <input type="hidden" name="StaffID" value="<?php echo $item['StaffID']; ?>">
+                                    <button type="submit" class="btn btn-dark" name="save">YES</button>
                                 </form>
                             </div>
                         </div>
-
-
                     </div>
                 </main> 
             </div>
