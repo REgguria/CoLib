@@ -2,7 +2,7 @@
 <header class = "sticky-top Landing-Page">
     <nav class = "navbar navbar-expand-lg navbar-dark bg-dark">
         <div class= "container-fluid">
-            <a class="navbar-brand" href = "Index.php"><img src = "../Images/Header/logo.png" alt = ""></a>
+            <a class="navbar-brand" href = "../Index.php"><img src = "../Images/Header/logo.png" alt = ""></a>
             <!-- Burger Button ID = navbarItems -->
             <button class ="navbar-toggler" type="button"
             data-bs-toggle="collapse" data-bs-target="#navbarItems" 
