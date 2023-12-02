@@ -29,13 +29,13 @@
             }	
         }
         function edit(){
-            $sql = "UPDATE jorunal SET Title=:Title, Description=:Description, Author=:Author Text=:Text WHERE JournalID =:JournalID;";
-            $query=$this->Database->connect()->prepare($sql);
-            $query->bindParam(':Title', $this->Title);
-            $query->bindParam(':Descriptionm', $this->Description);
-            $query->bindParam(':Author', $this->Author);
-            $query->bindParam(':Text', $this->Text);
-            $query->bindParam(':JournalID', $this->JournalID);
+            $sql = "UPDATE journal SET Title=:Title, Description=:Description, Author=:Author, Text=:Text WHERE JournalID = :JournalID;";
+            $query = $this->Database->connect()->prepare($sql);
+            $query->bindValue(':Title', $this->Title, PDO::PARAM_STR);
+            $query->bindValue(':Description', $this->Description, PDO::PARAM_STR);
+            $query->bindValue(':Author', $this->Author, PDO::PARAM_STR);
+            $query->bindValue(':Text', $this->Text, PDO::PARAM_STR);
+            $query->bindValue(':JournalID', $this->JournalID, PDO::PARAM_INT);
            
             if($query->execute()){
                 return true;
@@ -45,7 +45,7 @@
             }	
         }
 
-        function fetch($record_id){
+        function fetch($RecordID){
             $sql = "SELECT * FROM journal WHERE JournalID = :JournalID;";
             $query=$this->Database->connect()->prepare($sql);
             $query->bindParam(':JournalID', $RecordID);
