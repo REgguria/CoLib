@@ -2,11 +2,11 @@
 <html lang="en">
     <?php
         $title = "Home Page";
-        require_once('../include/head.php');
+        require_once('./include/head.php');
     ?>
 <body>
     <?php
-        require_once('../include/header.user.php');
+        require_once('./include/header.user.php');
     ?>
     <main class="container-fluid">
         <!-- Jumbotron which showcases the website -->
@@ -301,8 +301,8 @@
         </div>
     </footer>
     <?php 
-        require_once('../include/js.php');
+        require_once('./include/js.php');
     ?>
-    <script src="../tools/pagination.js"></script>
+    <script src="./tools/pagination.js"></script>
 </body>
 </html>
