@@ -46,8 +46,9 @@
                         <a href ="../Webpages/login.php" style="text-decoration: none">
                             <div class="card border-dark mb-2">
                                 <div class="card-body text-dark">
-                                    <h5 class="card-title">Dark card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title mb-2 code_title">Creating a Basic Navbar with CSS</h5>
+                                    <h5 class="card-text border-dark format">HTML/CSS</h5>
+                                    <p class="card-text description">A very basic Navbar made from HTML and CSS</p>
                                 </div>
                             </div>
                          </a>
