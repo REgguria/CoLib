@@ -50,6 +50,27 @@
                 $data = $query->fetchAll();
             }
             return $data;
+        }
+
+        function delete($DeleteID){
+            $ReportID = $DeleteID;
+            $sql = "DELETE FROM reports WHERE ReportID = :ReportID;";
+            $query=$this->Database->connect()->prepare($sql);
+            $query->bindParam(':ReportID', $ReportID, PDO::PARAM_INT);
+            try {
+                // Execute the query
+                $query->execute();
+                
+                // Check if any rows were affected
+                if ($query->rowCount() > 0) {
+                    return true; // Deletion successful
+                } else {
+                    return false; // No rows affected, possibly StaffID doesn't exist
+                }
+            } catch (PDOException $e) {
+                // Handle exceptions, log or display an error message
+                return false;
+            }
         }    
     }
     ?>

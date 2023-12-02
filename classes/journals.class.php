@@ -64,5 +64,25 @@
             }
             return $data;
         }
+        function delete($DeleteID){
+            $JournalID = $DeleteID;
+            $sql = "DELETE FROM journal WHERE JournalID= :JournalID;";
+            $query=$this->Database->connect()->prepare($sql);
+            $query->bindParam(':JournalID', $JournalID, PDO::PARAM_INT);
+            try {
+                // Execute the query
+                $query->execute();
+                
+                // Check if any rows were affected
+                if ($query->rowCount() > 0) {
+                    return true; // Deletion successful
+                } else {
+                    return false; // No rows affected, possibly StaffID doesn't exist
+                }
+            } catch (PDOException $e) {
+                // Handle exceptions, log or display an error message
+                return false;
+            }
+        }
     }
 ?>

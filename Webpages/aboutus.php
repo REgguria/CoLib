@@ -14,7 +14,7 @@
         <div class="container-fluid">
             <div class="container-fluid d-flex justify-content-center align-items-center">
                 <div class="card m-5" style="max-width: 24em">
-                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+                    <img src="../Images/kamilphoto.jpg" class="card-img-top" alt="Hollywood Sign on The Hill"/>
                     <div class="card-body">
                         <h5 class="card-title">Kamil Abdurajie</h5>
                         <p class="card-text">Founder of CoLib</p>

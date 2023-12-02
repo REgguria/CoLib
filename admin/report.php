@@ -53,7 +53,9 @@
                                         <td><?= $item['CodeName'] ?></td>
                                         <td><?= $item['Complain'] ?></td>
                                         <td class="text-center"><a href =""><i class="fa-solid fa-download" aria-hidden="true"></i></a></td>
-                                        <td class="text-center"><a href=""><i class="fa-solid fa-trash" aria-hidden="true"></i></a></td>
+                                        <td class="text-center"> <button type="button-fluid" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#DeleteButton">
+                                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                            </button></td>
                                     </tr>
                                     <?php
                                         $Counter++;
@@ -62,7 +64,25 @@
                                     ?>
                                 <!-- You now have a total of 10 rows with spicy pizza orders -->
                             </tbody>
-                        </table>                                             
+                        </table> 
+                        <div class="modal fade" id="DeleteButton" tabindex="-1" aria-labelledby="DeleteButton" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="DeleteButton">Delete Report</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                <div class="modal-body">
+                                    <p><strong>Are you sure about this?</strong></p>
+                                </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">NO</button>
+                                <form action="deletereports.php" method="post">
+                                    <input type="hidden" name="ReportID" value="<?php echo $item['ReportID']; ?>">
+                                    <button type="submit" class="btn btn-dark" name="save">YES</button>
+                                </form>
+                            </div>
+                        </div>                                            
                     </div>
                 </main>
          </div>

@@ -33,24 +33,23 @@
             }	  
         }
         function edit(){
-            $sql = "UPDATE customers SET Username=:Username Email=:Email FirstName=:FirstName, LastName=:LastName, Password=:Password WHERE CustomerID = :CustomerID;";
+            $sql = "UPDATE customers SET Username=:Username, Email=:Email, FirstName=:FirstName, LastName=:LastName WHERE CustomerID = :CustomerID;";
     
-            $query=$this->Database->connect()->prepare($sql);
-            $query->bindParam(':FirstName', $this->FirstName);
-            $query->bindParam(':LastName', $this->LastName);
-            $query->bindParam(':Role', $this->Role);
-            $query->bindParam(':Email', $this->Email);
-            $query->bindParam(':Status', $this->status);
-            $query->bindParam(':StaffID', $this->StaffID);
-            
-            if($query->execute()){
+                $query = $this->Database->connect()->prepare($sql);
+                $query->bindParam(':Username', $this->Username);
+                $query->bindParam(':Email', $this->Email);
+                $query->bindParam(':FirstName', $this->FirstName);
+                $query->bindParam(':LastName', $this->LastName);
+                $query->bindParam(':CustomerID', $this->CustomerID);
+
+            if ($query->execute()) {
                 return true;
-            }
-            else{
+            } else {
                 return false;
-            }	
+            }
+
         }
-        function fetch($record_id){
+        function fetch($RecordID){
             $sql = "SELECT * FROM customers WHERE CustomerID = :CustomerID;";
             $query=$this->Database->connect()->prepare($sql);
             $query->bindParam(':CustomerID', $RecordID);
@@ -80,5 +79,25 @@
                 }
             }
             return false;
+        }
+        function delete($DeleteID){
+            $CustomerID = $DeleteID;
+            $sql = "DELETE FROM customers WHERE CustomerID = :CustomerID;";
+            $query=$this->Database->connect()->prepare($sql);
+            $query->bindParam(':CustomerID', $CustomerID, PDO::PARAM_INT);
+            try {
+                // Execute the query
+                $query->execute();
+                
+                // Check if any rows were affected
+                if ($query->rowCount() > 0) {
+                    return true; // Deletion successful
+                } else {
+                    return false; // No rows affected, possibly StaffID doesn't exist
+                }
+            } catch (PDOException $e) {
+                // Handle exceptions, log or display an error message
+                return false;
+            }
         }
     }
