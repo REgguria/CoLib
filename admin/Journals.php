@@ -59,7 +59,8 @@
                                         <td><?= $item['DateUploaded'] ?></td>
                                         <td><?= $item['DateUpdated'] ?></td>
                                         <td class="text-center"><a href =""><i class="fa-solid fa-download" aria-hidden="true"></i></a></td>
-                                        <td class="text-center"><a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+                                        <td class="text-center">
+                                            <a href="editjournal.php?JournalID=<?php echo $item['JournalID']; ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
                                         <td class="text-center"><button type="button-fluid" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#DeleteButton">
                                                 <i class="fa fa-trash" aria-hidden="true"></i>
                                             </button></i></a></td>

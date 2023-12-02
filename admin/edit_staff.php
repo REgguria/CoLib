@@ -65,7 +65,7 @@
         require_once('../include/header.admin.php')
     ?>
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-    <div class="col-12 col-lg-6 d-flex justify-content-between align-items-center">
+                <div class="col-12 col-lg-6 d-flex justify-content-between align-items-center">
                         <h2 class="h3 brand-color pt-3 pb-2">Edit Staff</h2>
                         <a href="staff.php" class="text-primary text-decoration-none"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</a>
                     </div>
