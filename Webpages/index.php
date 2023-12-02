@@ -14,17 +14,19 @@
             <div class="container-fluid py-5 vh-50">
                 <h1 class="display-5 fw-bold">CoLib</h1>
                     <p class="col-md-8 fs-4">Bringing you the simple, best, and yet open-source codes throughout the web!</p>
-                <button class="btn btn-primary btn-dark btn-lg" type="button">Start Browsing</button>
+                <a href="Card-Deck-Code-Library">
+                    <button class="btn btn-primary btn-dark btn-lg" type="button">Start Browsing</button>
+                </a>
             </div>
         </div>
 
 
         <div class="container-fluid mb-2 flex-column align-items-center">
-            <div class="container-fluid d-flex justify-content-end align-content-end my-2">
+            <div class="container-fluid d-md-flex justify-content-end align-content-end my-2">
                 <form method="post" action="" class="d-flex">
                     <div class="input-group">
                         <input type="search" class="form-control rounded w-25" placeholder="Search" name="search"/>
-                        <button type="button" class="btn btn-outline-dark" data-mdb-ripple-init>Search</button>
+                        <button type="button" class="btn btn-outline-dark" data-mdb-ripple-init><i class="fa fa-search" aria-hidden="true"></i></button>
                     </div>
                 </form>
                 <select class="form-select text-dark mx-2" id="" style="max-width: 14em">
@@ -38,8 +40,8 @@
                 <button class="btn btn-outline-secondary btn-add" type="button"><i class="fa fa-plus brand-color" aria-hidden="true"></i></button>
             </div>
 
-            <div class="container-fluid m-0 p-0">
-                <div class="row m-2">
+            <div class="container-fluid m-0 p-0" id="Card-Deck-Code-Library">
+                <div class="row row-md-auto m-2">
                     <div class="col">
                         <a href ="../Webpages/login.php" style="text-decoration: none">
                             <div class="card border-dark mb-2">
