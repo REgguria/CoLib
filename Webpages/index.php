@@ -138,56 +138,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="row row-md-auto m-2">
-                    <div class="col">
-                        <a href ="../Webpages/login.php" style="text-decoration: none">
-                            <div class="card border-dark mb-2">
-                                <div class="card-body text-dark">
-                                    <h5 class="card-title">Dark card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                         </a>
-                    </div>
-
-                    <div class="col">
-                        <div class="card border-dark mb-2">
-                            <div class="card-body text-dark">
-                                <h5 class="card-title">Dark card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card border-dark mb-2">
-                            <div class="card-body text-dark">   
-                                <h5 class="card-title">Dark card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card border-dark mb-2">
-                            <div class="card-body text-dark">
-                                <h5 class="card-title">Dark card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card border-dark mb-2">
-                            <div class="card-body text-dark">
-                                <h5 class="card-title">Dark card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="row row-md-auto m-2">
                     <div class="col">
