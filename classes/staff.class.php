@@ -60,14 +60,14 @@
     function fetch($RecordID){
         $sql = "SELECT * FROM staff WHERE StaffID = :StaffID;";
         $query=$this->Database->connect()->prepare($sql);
-        $query->bindParam(':StaffID', $RecordID);
+        $query->bindParam(':StaffID', $recordID);
         if($query->execute()){
             $data = $query->fetch();
         }
         return $data;
     }
 
-    function show(){
+    function show() {
         $sql = "SELECT * FROM staff ORDER BY LastName ASC, FirstName ASC;";
         $query=$this->Database->connect()->prepare($sql);
         $data = null;
