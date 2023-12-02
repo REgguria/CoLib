@@ -11,14 +11,6 @@
         require_once("../include/header.user.php");
     ?>
     <main>
-        <div class="p-5 mb-2 bg-body-tertiary">
-            <div class="container-fluid py-5 vh-50">
-                <h1 class="display-5 fw-bold">CoLib</h1>
-                    <p class="col-md-8 fs-4">Bringing you the simple, best, and yet open-source codes throughout the web!</p>
-                <button class="btn btn-primary btn-dark btn-lg" type="button">Start Browsing</button>
-            </div>
-        </div>
-
         <div class="container-fluid">
             <div class="row d-flex justify-content-center">
                 <div class="col-3 border-5 rounded-3 vh-25 bg-secondary m-2">
