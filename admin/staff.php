@@ -54,7 +54,7 @@
                                         <td><?= $item['Role'] ?></td>
                                         <td><?= $item['Email'] ?></td>
                                         <td><?= $item['Status'] ?></td>
-                                        <td class="text-center">
+                                        <td>
                                             <a href="edit_staff.php?StaffID=<?php echo $item['StaffID']; ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                                             </a>
                                             <button type="button-fluid" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#DeleteButton">

@@ -84,4 +84,44 @@
             }
             return $data;
         }
+        function delete($DeleteID){
+            $CodeID = $DeleteID;
+            $sql = "DELETE FROM code WHERE CodeID = :CodeID;";
+            $query=$this->Database->connect()->prepare($sql);
+            $query->bindParam(':CodeID', $CodeID, PDO::PARAM_INT);
+            try {
+                // Execute the query
+                $query->execute();
+                
+                // Check if any rows were affected
+                if ($query->rowCount() > 0) {
+                    return true; // Deletion successful
+                } else {
+                    return false; // No rows affected, possibly StaffID doesn't exist
+                }
+            } catch (PDOException $e) {
+                // Handle exceptions, log or display an error message
+                return false;
+            }
+        }
+        function approve($approveID){
+            $CodeID = $approveID;
+            $sql = "UPDATE code SET Approval = 1 WHERE CodeID = :CodeID;";
+            $query=$this->Database->connect()->prepare($sql);
+            $query->bindParam(':CodeID', $CodeID, PDO::PARAM_INT);
+            try {
+                // Execute the query
+                $query->execute();
+                
+                // Check if any rows were affected
+                if ($query->rowCount() > 0) {
+                    return true; // Deletion successful
+                } else {
+                    return false; // No rows affected, possibly StaffID doesn't exist
+                }
+            } catch (PDOException $e) {
+                // Handle exceptions, log or display an error message
+                return false;
+            }
+        }
     }
