@@ -15,19 +15,19 @@
             <div class = "collapse navbar-collapse" id = "navbarItems">
                 <ul class="navbar-nav mb-2 mb-lg-o ms-auto me-0"  > <!-- Navbar Item List Start -->
                     <li class ="nav-item">
-                        <a class="nav-link" href="Index.php">Home<a>
+                        <a class="nav-link" href="./Webpages/Index.php">Home<a>
                     </li>
                     <li class = "nav-item">
-                        <a class="nav-link" href="news.php">News<a>
+                        <a class="nav-link" href="./Webpages/news.php">News<a>
                     </li>
                     <li class = "nav-item">
-                        <a class="nav-link" href="aboutus.php">Our Story<a>
+                        <a class="nav-link" href="./Webpages/aboutus.php">Our Story<a>
                     </li>
                     <li class = "nav-item">
-                        <a class="nav-link" href="../Webpages/signup.php">Sign Up<a>
+                        <a class="nav-link" href="./Webpages/signup.php">Sign Up<a>
                     </li>
                     <li class = "nav-item">
-                        <a class="nav-link" href="../Webpages/login.php">Log In<a>
+                        <a class="nav-link" href="./Webpages/login.php">Log In<a>
                     </li>
                 </ul> <!-- End of Navbar Item List -->
             </div>
